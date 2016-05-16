@@ -21,7 +21,9 @@ RUN pip install --upgrade pip
 
 COPY . /opt/docker_flask
 
-EXPOSE 5000
+RUN pip install -r requirements.txt
+
+EXPOSE 5001
 
 CMD ["python", "app.py"]
 

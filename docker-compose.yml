@@ -1,0 +1,6 @@
+docker_flask:
+  container_name: docker_flask
+  build: .
+  hostname: docker_flask
+  ports:
+    - "5001:5001"
