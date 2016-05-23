@@ -1,3 +1,5 @@
+from gevent.pywsgi import WSGIServer
+
 from flask import Flask
 
 app = Flask(__name__)
@@ -9,4 +11,5 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5001, debug=True)
+    ws = WSGIServer(('0.0.0.0', 5001), app)
+    ws.serve_forever()
