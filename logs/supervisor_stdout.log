@@ -1,0 +1,20 @@
+[2016-05-23 04:55:43 +0000] [8] [INFO] Starting gunicorn 19.4.5
+[2016-05-23 04:55:43 +0000] [8] [INFO] Listening at: http://0.0.0.0:5001 (8)
+[2016-05-23 04:55:43 +0000] [8] [INFO] Using worker: gevent
+[2016-05-23 04:55:43 +0000] [13] [INFO] Booting worker with pid: 13
+[2016-05-23 04:55:43 +0000] [14] [INFO] Booting worker with pid: 14
+[2016-05-23 04:55:43 +0000] [15] [INFO] Booting worker with pid: 15
+[2016-05-23 04:55:43 +0000] [16] [INFO] Booting worker with pid: 16
+[2016-05-23 04:56:58 +0000] [8] [INFO] Handling signal: term
+[2016-05-23 04:56:58 +0000] [13] [INFO] Worker exiting (pid: 13)
+[2016-05-23 04:56:58 +0000] [14] [INFO] Worker exiting (pid: 14)
+[2016-05-23 04:56:58 +0000] [15] [INFO] Worker exiting (pid: 15)
+[2016-05-23 04:56:58 +0000] [16] [INFO] Worker exiting (pid: 16)
+[2016-05-23 04:56:58 +0000] [8] [INFO] Shutting down: Master
+[2016-05-23 04:57:06 +0000] [7] [INFO] Starting gunicorn 19.4.5
+[2016-05-23 04:57:06 +0000] [7] [INFO] Listening at: http://0.0.0.0:5001 (7)
+[2016-05-23 04:57:06 +0000] [7] [INFO] Using worker: gevent
+[2016-05-23 04:57:06 +0000] [12] [INFO] Booting worker with pid: 12
+[2016-05-23 04:57:06 +0000] [13] [INFO] Booting worker with pid: 13
+[2016-05-23 04:57:07 +0000] [14] [INFO] Booting worker with pid: 14
+[2016-05-23 04:57:07 +0000] [15] [INFO] Booting worker with pid: 15
