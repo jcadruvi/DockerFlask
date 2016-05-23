@@ -14,14 +14,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir -p /opt/docker_flask
 WORKDIR /opt/docker_flask
-RUN mkdir -p /opt/docker_flask/logs
-
-
-COPY requirements.txt /opt/docker_flask/
+COPY . /opt/docker_flask
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-
-COPY . /opt/docker_flask
 
 EXPOSE 5001
 
