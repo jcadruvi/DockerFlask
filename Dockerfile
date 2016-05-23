@@ -13,15 +13,15 @@ RUN apt-get update && apt-get install -y \
         supervisor
 
 RUN mkdir -p /opt/docker_flask
+WORKDIR /opt/docker_flask
 RUN mkdir -p /opt/docker_flask/logs
 
-WORKDIR /opt/docker_flask
 
+COPY requirements.txt /opt/docker_flask/
 RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
 COPY . /opt/docker_flask
-
-RUN pip install -r requirements.txt
 
 EXPOSE 5001
 

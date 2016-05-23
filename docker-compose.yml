@@ -4,3 +4,5 @@ docker_flask:
   hostname: docker_flask
   ports:
     - "5001:5001"
+  volumes:
+    - .:/opt/docker_flask
